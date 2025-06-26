@@ -17,7 +17,7 @@ Because you committed like it's 2015 and forgot GitHub exposes your email or you
 
 #### 2. Configuration
 
-Edit the top of the script (`fix_git_email.sh`) to set your personal info:
+Edit the top of the script (`github-anonimity-script.sh`) to set your personal info:
 
 ```bash
 GITHUB_USERNAME="yourusername"
@@ -36,8 +36,8 @@ export GITHUB_TOKEN=your_github_token_here
 #### 3. Run the script yes finally privacy yay
 
 ```bash
-chmod +x fix_git_email.sh
-./fix_git_email.sh
+chmod +x github-anonimity-script.sh
+./github-anonimity-script.sh
 ```
 
 What this ~~shit~~ perfect script does :3
