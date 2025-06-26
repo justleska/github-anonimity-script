@@ -6,7 +6,7 @@ Because you committed like it's 2015 and forgot GitHub exposes your email or you
 ---
 
 ## Usage  
-### 🐧 Linux / Fedora / Ubuntu / Arch / Whatever
+### 🐧 Linux / MacOS
 
 #### 1. Requirements
 
