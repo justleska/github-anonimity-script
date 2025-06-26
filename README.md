@@ -35,12 +35,48 @@ export GITHUB_TOKEN=your_github_token_here
 
 #### 3. Run the script yes finally privacy yay
 
+Open a terminal emulator
+
 ```bash
 chmod +x github-anonimity-script.sh
 ./github-anonimity-script.sh
 ```
 
 It's going to ask for your username and password for every repo it finds a leak so it can push the corrected version, but you have to put your GitHub API key instead of your password in a lot of cases because GitHub is strange so just for that (you can use the one you put in the script).
+
+### 🪟 Windows
+
+#### 1. Requirements
+
+- `powershell 5.1+`
+- `jq`
+- `git`
+- [A GitHub Personal Access Token (PAT)](https://github.com/settings/tokens) with `repo` access (just allow everything if ur gonna delete it after)
+
+#### 2. Configuration
+
+Edit the top of the script (`github-anonimity-script.ps1`) to set your personal info:
+
+```bash
+$GITHUB_USERNAME = "yourusername"
+$OLD_EMAIL = "you@leakedemail.com"
+$NEW_NAME = "replace by ur github username"
+$NEW_EMAIL = "whatever you want to put for your new email"
+$GITHUB_TOKEN = ""  # generate @ https://github.com/settings/tokens (choose classic)
+````
+
+#### 3. Run the script yes finally privacy yay
+
+Open Powershell as administrator
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\anonimify.ps1
+```
+
+It's going to ask for your username and password for every repo it finds a leak so it can push the corrected version, but you have to put your GitHub API key instead of your password in a lot of cases because GitHub is strange so just for that (you can use the one you put in the script).
+
+---
 
 What this ~~shit~~ perfect script does :3
 
