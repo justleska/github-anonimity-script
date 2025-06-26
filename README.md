@@ -40,6 +40,8 @@ chmod +x github-anonimity-script.sh
 ./github-anonimity-script.sh
 ```
 
+It's going to ask for your username and password for every repo it finds a leak so it can push the corrected version, but you have to put your GitHub API key instead of your password in a lot of cases because GitHub is strange so just for that (you can use the one you put in the script).
+
 What this ~~shit~~ perfect script does :3
 
 * Fetch all commits authored by your old email across your GitHub repos.
@@ -54,6 +56,7 @@ What this ~~shit~~ perfect script does :3
 * This **rewrites git history** and force-pushes it. So if others cloned the repo, it will break their local history, and ur cooked.
 * Your commits can still be cached or archived externally so to make sure contact support I guess
 * I made it which means it is poo poo on a stick so please be careful with it you might end up breaking ur stuff
+* You can get rate limited by GitHub's API if you have a big big amount of repos and I can't do anything about that
 
 ## License
 
