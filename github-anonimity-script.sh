@@ -1,6 +1,4 @@
 #!/bin/bash
-you have to put ur key and not password
-u can be rate limited
 
 # CONFIG - fill these with your info
 GITHUB_USERNAME="yourusername"
